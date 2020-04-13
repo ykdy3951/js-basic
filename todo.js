@@ -15,7 +15,6 @@ function deleteToDo(event) {
 	});
 	toDos = cleanToDos;
 	saveToDos();
-	location.reload();
 }
 
 function saveToDos() {
